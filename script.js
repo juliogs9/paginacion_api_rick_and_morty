@@ -62,12 +62,10 @@ const pintarPaginacion = (data) => {
 
   btnPri.addEventListener("click", (e) => {
     getData(data.next);
-    console.log(data.next);
   });
 
   btnSecon.addEventListener("click", (e) => {
     getData(data.prev);
-    console.log(data.prev);
   });
 };
 
